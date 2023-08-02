@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        jcenter()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+}
+rootProject.name = "UatShopping"
+include ':app'
+include ':common'
+include ':study'
+include ':service'
+include ':login'
+include ':mine'
+include ':home'
+include ':course'
